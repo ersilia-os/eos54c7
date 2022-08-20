@@ -5,7 +5,7 @@ import sys
 
 # Input Parameters
 input_file = open(sys.argv[1], 'r')
-Lines = input_file.readlines()
+Lines = input_file.readlines()[1:]
 
 fp        = 'ECFP4'
 maxCount  = '100'
