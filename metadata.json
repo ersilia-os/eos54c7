@@ -1,0 +1,31 @@
+{
+    "Identifier": "eos54c7",
+    "Slug": "zinc-similarity",
+    "Status": "Ready",
+    "Title": "Similarity search in the ZINC database",
+    "Description": "Given a molecule, this model looks for its 100 nearest neighbors, according to ECFP4 Tanimoto similarity, in the ZINC database. Due to size constraints, the model redirects queries to the ZINC server, so when using this model predictions are posted online.\n",
+    "Mode": "Online",
+    "Input": [
+        "Compound"
+    ],
+    "Input Shape": "Single",
+    "Task": [
+        "Similarity"
+    ],
+    "Output": [
+        "Compound"
+    ],
+    "Output Type": [
+        "String"
+    ],
+    "Output Shape": "List",
+    "Interpretation": "List of 100 nearest neighbors",
+    "Tag": [
+        "Similarity",
+        "ZINC"
+    ],
+    "Publication": "https://www.frontiersin.org/articles/10.3389/fchem.2020.00046/full",
+    "Source Code": "http://130.92.106.217:8080/MCSS/",
+    "License": "None",
+    "Contributor": "Amna-28"
+}
