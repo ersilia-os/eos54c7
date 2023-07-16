@@ -23,6 +23,9 @@ Given a molecule, this model looks for its 100 nearest neighbors, according to E
 * [Source Code](http://130.92.106.217:8080/MCSS/)
 * Ersilia contributor: [Amna-28](https://github.com/Amna-28)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos54c7)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://www.frontiersin.org/articles/10.3389/fchem.2020.00046/full) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
