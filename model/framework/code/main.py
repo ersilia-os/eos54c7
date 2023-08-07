@@ -2,7 +2,7 @@
 import os
 import csv
 import sys
-from zinc-similarity import  100_closest 
+from similarity import zinc_100_closest
 
 
 # parse arguments
@@ -21,7 +21,7 @@ with open(input_file, "r") as f:
     smiles_list = [r[0] for r in reader]
 
 # run model
-outputs = 100_closest(smiles_list)
+outputs = zinc_100_closest(smiles_list)
 
 #check input and output have the same lenght
 input_len = len(smiles_list)
