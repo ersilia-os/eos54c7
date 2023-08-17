@@ -27,5 +27,11 @@
     "Publication": "https://www.frontiersin.org/articles/10.3389/fchem.2020.00046/full",
     "Source Code": "http://130.92.106.217:8080/MCSS/",
     "License": "None",
-    "Contributor": "Amna-28"
+    "Contributor": "Amna-28",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos54c7.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos54c7",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }
